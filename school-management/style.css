@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{ 
+    position: fixed;
+    background-color: teal;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+}
+.logo{
+     font-size: 30px;
+     position: relative;
+     left: 5%;
+     color: white;
+     font-weight: bold;
+     line-height: 70px;
+}
+
+ul{
+    position: relative;
+   float: right; 
+   margin-right: 150px;
+
+}
+
+ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
